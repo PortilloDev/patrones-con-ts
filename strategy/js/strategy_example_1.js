@@ -62,16 +62,16 @@ class ForeingSaleStrategy
 
 
 
-const regularSale = new RegularSaleStrategy(0.16);
-const discountSale = new DiscountSaleStrategy(0.16, 5);
-const foreingSale = new ForeingSaleStrategy(0.16, 5);
+// const regularSale = new RegularSaleStrategy(0.16);
+// const discountSale = new DiscountSaleStrategy(0.16, 5);
+// const foreingSale = new ForeingSaleStrategy(0.16, 5);
 
-const sale = new SaleContext(regularSale);
+// const sale = new SaleContext(regularSale);
 
-console.log(sale.calculate(20));
+// console.log(sale.calculate(20));
 
-sale.setStrategy(discountSale);
-console.log(sale.calculate(20));
+// sale.setStrategy(discountSale);
+// console.log(sale.calculate(20));
 
-sale.setStrategy(foreingSale);
-console.log(sale.calculate(20));
+// sale.setStrategy(foreingSale);
+// console.log(sale.calculate(20));
